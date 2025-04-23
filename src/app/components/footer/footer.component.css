@@ -1,0 +1,224 @@
+footer .footer-social--link img {
+    aspect-ratio: 1/1;
+    width: 24px
+}
+
+.single-footer-links>li:not(:last-of-type) {
+    margin-bottom: .75rem
+}
+
+.single-footer-links li a {
+    font-size: 1rem
+}
+
+.bottom-footer--logo {
+    aspect-ratio: 5/1;
+    width: 4.375rem
+}
+
+.footer-4 {
+    padding-inline-start: 0;
+    grid-template-columns: repeat(2, fit-content(152px))
+}
+
+.footer-4 li a {
+    margin-bottom: .75rem;
+    padding: 0 !important;
+    border: none !important
+}
+
+.view-all-dropup {
+    transition: all 250ms ease-out
+}
+
+.view-all--close {
+    right: .25rem;
+    margin-right: .5rem
+}
+
+.footer_chevron_down {
+    transition: all 250ms ease-out
+}
+
+.chev-down {
+    transform: rotate(180deg)
+}
+
+.close-view {
+    z-index: -1;
+    height: 0;
+    overflow: hidden
+}
+
+@media (min-width:320px) {
+    footer {
+        padding-top: 3rem !important
+    }
+
+    .veo-logo-box img {
+        width: 72.95px;
+        aspect-ratio: 72.95 / 24
+    }
+
+    .footer-links-container {
+        border-bottom: 1px solid var(--bs-gray-disabled);
+        padding-bottom: 3rem !important
+    }
+
+    .single-footer-links li a {
+        font-size: .8875rem
+    }
+
+    .bottom-footer .view_all_footer_btn {
+        font-size: .8875rem
+    }
+
+    .single-footer-link-box-heading {
+        font-size: .8875rem !important
+    }
+
+    .footer-4 li a {
+        font-size: .8875rem
+    }
+
+    .bottom-footer-right li a {
+        font-size: .75rem
+    }
+
+    .bottom-footer-right>.menu-item:not(:last-of-type) {
+        border-right: 1px solid var(--bs-gray-disabled);
+        padding-inline-end: .5rem
+    }
+
+    .bottom-footer-right>.menu-item:not(:first-of-type) {
+        padding-inline-start: .5rem
+    }
+
+    .bottom-footer {
+        padding: 1.25rem 0
+    }
+
+    footer .nav-link {
+        color: var(--bs-primary)
+    }
+
+    .single-footer-link-box {
+        max-width: 60%
+    }
+}
+
+@media (min-width:360px) {
+    .bottom-footer-right>.menu-item:not(:last-of-type) {
+        padding-inline-end: 1rem
+    }
+
+    .bottom-footer-right>.menu-item:not(:first-of-type) {
+        padding-inline-start: 1rem
+    }
+
+    .footer-links-container {
+        row-gap: var(--spacing-8, 2rem)
+    }
+}
+
+@media (min-width:600px) {
+    .veo-logo-box img {
+        width: 97.29px;
+        aspect-ratio: 97.29 / 32
+    }
+
+    .footer-links-container {
+        grid-template-columns: repeat(4, fit-content(131px))
+    }
+
+    .single-footer-links li a {
+        font-size: 1rem
+    }
+
+    .bottom-footer .view_all_footer_btn {
+        font-size: 1rem
+    }
+
+    .single-footer-link-box-heading {
+        font-size: 1rem !important
+    }
+
+    .footer-4 li a {
+        font-size: 1rem
+    }
+
+    .bottom-footer-right li a {
+        font-size: .8875rem
+    }
+
+    .single-footer-links>li:not(:last-of-type) {
+        margin-bottom: 1rem
+    }
+
+    .footer-4 {
+        grid-template-columns: repeat(2, fit-content(286px))
+    }
+
+    .bottom-footer {
+        padding-top: 1.5rem;
+        padding-bottom: 2rem
+    }
+}
+
+@media (min-width:905px) {
+    .footer-links-container {
+        grid-template-columns: repeat(4, fit-content(202px))
+    }
+
+    .footer-4 {
+        grid-template-columns: repeat(4, fit-content(286px))
+    }
+
+    .bottom-footer {
+        flex-direction: row !important;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem
+    }
+}
+
+@media (min-width:1240px) {
+    footer {
+        padding-top: 3.5rem !important
+    }
+
+    .footer-links-container {
+        grid-template-columns: repeat(4, fit-content(202px));
+        border: none;
+        gap: 4.5rem !important;
+        padding-bottom: 3.5rem !important
+    }
+
+    .footer-4 {
+        grid-template-columns: repeat(4, fit-content(286px))
+    }
+
+    .footer-top-logo-wrapper {
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        gap: 4.5rem !important
+    }
+
+    .footer-top-container {
+        display: flex !important;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--bs-gray-disabled)
+    }
+
+    .bottom-footer {
+        padding-top: 2.5rem;
+        padding-bottom: 3rem
+    }
+}
+
+.otgs-development-site-front-end {
+    display: none !important
+}
+
+.wpml-ls-legacy-list-horizontal.wpml-ls-statics-footer {
+    display: none !important
+}
